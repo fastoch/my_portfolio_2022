@@ -1,2 +1,2 @@
 # first_website
-First step in becoming a full-stack dev
+First step in becoming a Full Stack Dev.
