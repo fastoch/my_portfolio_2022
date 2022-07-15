@@ -15,12 +15,14 @@ h1 {
     margin-top: 0em;
     height: 4.4em;
 }
+
 h2 {
     font-size: 2em;
-    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
     color: antiquewhite;
     text-shadow: 2px 2px 4px #000000;
 }
+
 h3 {
     font-family: 'Courier New', Courier, monospace;
     position: fixed;
@@ -30,35 +32,40 @@ h3 {
     padding-top: 11em;
     margin-top: 4em;
 }
-span {
+
+nav {
     font-size: 1.1em;
     color: antiquewhite;
     position: fixed;
     right: 4em;
     bottom: 15em;
 }
+
 a {
     color: rgb(0, 0, 0);
-    font-family:'Times New Roman', Times, serif;
+    font-family: 'Times New Roman', Times, serif;
     text-shadow: none;
 }
 
 body {
-	background: linear-gradient(-45deg, #ee7752, #e05b8e, #23a6d5, #23d5ab);
-	background-size: 400% 400%;
-	animation: gradient 16s ease infinite;
-	height: 100vh;
+    background: linear-gradient(-45deg, #ee7752, #e05b8e, #23a6d5, #23d5ab);
+    background-size: 400% 400%;
+    animation: gradient 16s ease infinite;
+    height: 100vh;
 }
+
 @keyframes gradient {
-	0% {
-		background-position: 0% 50%;
-	}
-	50% {
-		background-position: 100% 50%;
-	}
-	100% {
-		background-position: 0% 50%;
-	}
+    0% {
+        background-position: 0% 50%;
+    }
+
+    50% {
+        background-position: 100% 50%;
+    }
+
+    100% {
+        background-position: 0% 50%;
+    }
 }
 
 p {
@@ -66,98 +73,119 @@ p {
     color: rgb(255, 255, 255);
     text-shadow: 2px 2px 4px #000000;
 }
+
 ul {
     font-size: 1.2em;
-    font-family:'Times New Roman', Times, serif, monospace;
+    font-family: 'Times New Roman', Times, serif, monospace;
 }
-.button1 { /*CV button*/
+
+.button1 {
+    /*CV button*/
     font-size: 1.2em;
     font-family: Geneva, Tahoma, sans-serif;
     color: #effcff;
-	background: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);
+    background: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);
     padding: 8px 16px;
     border-radius: 5px;
     border-width: 1px;
     cursor: pointer;
     display: grid;
-    margin-left: 30em; /*center CV button*/
+    margin-left: 30em;
+    /*center CV button*/
 }
-.button2 { /*Choose language button*/
+
+.button2 {
+    /*Choose language button*/
     font-size: 1em;
     font-family: Geneva, Tahoma, sans-serif;
     color: #effcff;
-	background: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);
+    background: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);
     padding: 8px 16px;
     margin-top: 2px;
     border-radius: 5px;
     border-width: 1px;
     cursor: pointer;
 }
-.button3 { /*GitHub button*/
+
+.button3 {
+    /*GitHub button*/
     font-size: 1.2em;
     font-family: Geneva, Tahoma, sans-serif;
     color: #effcff;
-	background: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);
+    background: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);
     padding: 8px 16px;
     border-radius: 5px;
     border-width: 1px;
     cursor: pointer;
     display: grid;
-    margin-left: 30.7em; /*center GitHub button*/
+    margin-left: 30.7em;
+    /*center GitHub button*/
 }
-.button4 { /*LinkedIn button*/
+
+.button4 {
+    /*LinkedIn button*/
     font-size: 1.2em;
     font-family: Geneva, Tahoma, sans-serif;
     color: #effcff;
-	background: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);
+    background: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);
     padding: 8px 16px;
     border-radius: 5px;
     border-width: 1px;
     cursor: pointer;
     display: grid;
-    margin-left: 30em; /*center GitHub button*/
+    margin-left: 30em;
+    /*center GitHub button*/
 }
-.button5 { /*English LinkedIn button*/
+
+.button5 {
+    /*English LinkedIn button*/
     font-size: 1.2em;
     font-family: Geneva, Tahoma, sans-serif;
     color: #effcff;
-	background: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);
+    background: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);
     padding: 8px 16px;
     border-radius: 5px;
     border-width: 1px;
     cursor: pointer;
     display: grid;
-    margin-left: 30.6em; /*center GitHub button*/
+    margin-left: 30.6em;
+    /*center GitHub button*/
 }
+
 .floatingPic {
-    float:left;
+    float: left;
     width: 5%;
     height: 5%;
 }
+
 .font1 {
     font-size: 2em;
     font-family: monospace;
     color: antiquewhite;
     font-weight: bold;
 }
+
 .font2 {
     font-size: 1.1em;
     font-family: Arial, sans-serif;
     color: rgb(182, 230, 238);
     text-shadow: none;
 }
+
 .git_icon {
     position: absolute;
     margin-left: 32em;
     margin-top: -0.75em;
     width: 66px;
 }
+
 .linkedin_icon {
     position: absolute;
     margin-left: 32.5em;
     margin-top: -0.4em;
     width: 50px;
 }
+
 .under {
-    clear:both;
+    clear: both;
 }
